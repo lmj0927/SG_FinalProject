@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd45e810752f2ac4c91e99a997f9ab4e, type: 3}
+  m_Name: ScenarioDataReader
+  m_EditorClassIdentifier: 
+  associatedSheet: 1Pmik_SiXskyeVI67k6jw1lN7tWzKgVKoGzns5DQS1Js
+  associatedWorksheet: TestScenario
+  startRowLength: 2
+  endRowLength: 7
+  dataList:
+  - id: 0
+    text: hello
+    trigger: 0
+    nextId: 1
+    motionType: 0
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 1
+    text: howAreyou
+    trigger: 1
+    nextId: 
+    motionType: 0
+    c1Label: Fine
+    c1NextId: 2
+    c2Label: NotGood
+    c2NextId: 3
+    c3Label: Bad
+    c3NextId: 4
+  - id: 2
+    text: aa
+    trigger: 0
+    nextId: 5
+    motionType: 0
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 3
+    text: bb
+    trigger: 0
+    nextId: 5
+    motionType: 0
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 4
+    text: cc
+    trigger: 0
+    nextId: 5
+    motionType: 0
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 5
+    text: Bye
+    trigger: 2
+    nextId: 
+    motionType: 1
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 

@@ -104,3 +104,7 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# Google Sheets to Unity — OAuth / API credentials (로컬 전용, 커밋 금지)
+/[Aa]ssets/Google Sheets to Unity/Resources/GSTU_Config.asset
+/[Aa]ssets/Google Sheets to Unity/Resources/GSTU_Config.asset.meta
