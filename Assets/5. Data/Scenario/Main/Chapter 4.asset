@@ -1,0 +1,1143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b53d542a70b7fde47a377860b69e9b53, type: 3}
+  m_Name: Chapter 4
+  m_EditorClassIdentifier: 
+  scenarioId: Chapter 4
+  nodes:
+  - id: 0
+    text: "\uCCB4\uC721\uB300\uD68C \uB2F9\uC77C. \uD65C\uAE30\uCC2C \uD568\uC131\uC18C\uB9AC\uC640
+      \uD638\uAC01 \uC18C\uB9AC\uAC00 \uAC00\uB4DD\uD55C \uD559\uAD50 \uC6B4\uB3D9\uC7A5\uC5D0\uC11C\uB294
+      \uB9CC\uAD6D\uAE30\uAC00 \uD718\uB0A0\uB9AC\uACE0 \uBD04 \uD587\uC0B4\uC774
+      \uC804\uACBD\uC744 \uB530\uC2A4\uD558\uAC8C \uB0B4\uB9AC\uCB10\uACE0 \uC788\uB2E4."
+    trigger: 0
+    nextId: 1
+    motionType: 0
+    characterType: 7
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 1
+    text: "\uD558\uC9C0\uB9CC \uB208\uBD80\uC2E0 \uBD04 \uD48D\uACBD\uACFC \uB2EC\uB9AC,
+      \uB098\uC5D0\uAC8C \uC6B4\uB3D9\uC7A5\uC740 \uADF8\uC57C\uB9D0\uB85C \uAC00\uC7A5
+      \uAC70\uB300\uD558\uACE0 \uD639\uD639\uD55C \uC2DC\uD5D8\uB300\uC600\uB2E4.
+      \uC804\uAD50\uC0DD\uC774 \uD55C\uC790\uB9AC\uC5D0 \uBAA8\uC5EC \uC0AC\uBC29\uC5D0\uC11C
+      \uC18C\uB9AC\uB97C \uC9C0\uB974\uACE0 \uC788\uC5C8\uACE0, \uC751\uC6D0 \uB3C4\uAD6C\uAC00
+      \uBD80\uB52A\uCE58\uB294 \uC18C\uB9AC, \uC570\uD504\uC5D0\uC11C \uD758\uB7EC\uB098\uC624\uB294
+      \uB304\uC2A4\uACE1\uC774 \uB4A4\uC11E\uC5EC \uACE0\uB9C9\uC744 \uCC14\uB800\uB2E4."
+    trigger: 0
+    nextId: 2
+    motionType: 0
+    characterType: 7
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 2
+    text: "\uC0AC\uBC29\uC5D0\uC11C \uBAA8\uB974\uB294 \uC544\uC774\uB4E4\uC774 \uC5B4\uAE68\uB97C
+      \uBD80\uB52A\uCE58\uBA70 \uC9C0\uB098\uAC08 \uB54C\uB9C8\uB2E4 \uB0B4 \uBAB8\uC758
+      \uBAA8\uB4E0 \uAC10\uAC01 \uC138\uD3EC\uAC00 \uBE44\uBA85\uC744 \uC9C0\uB974\uB294
+      \uAC83 \uAC19\uC558\uB2E4."
+    trigger: 0
+    nextId: 3
+    motionType: 0
+    characterType: 7
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 3
+    text: "\uC608\uC804 \uAC19\uC558\uC73C\uBA74 \uC9C4\uC791\uC5D0 \uBCF4\uAC74\uC2E4\uB85C
+      \uB3C4\uB9DD\uCCD0 \uACFC\uD638\uD761 \uBA85\uB2E8\uC5D0 \uC774\uB984\uC744
+      \uC62C\uB838\uC744 \uC0C1\uD669\uC774\uC5C8\uB2E4."
+    trigger: 0
+    nextId: 4
+    motionType: 0
+    characterType: 7
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 4
+    text: "\uC2A4\uD53C\uCEE4: \uB2E4\uC74C \uACBD\uAE30, 1\uD559\uB144 \uB2E8\uCCB4
+      \uC904\uB118\uAE30 \uC608\uC120\uC804 \uC9C4\uD589\uD558\uACA0\uC2B5\uB2C8\uB2E4!
+      \uAC01 \uBC18 \uC120\uC218\uB4E4\uC740 \uC6B4\uB3D9\uC7A5 \uC911\uC559\uC73C\uB85C
+      \uBAA8\uC5EC\uC8FC\uC138\uC694!"
+    trigger: 0
+    nextId: 5
+    motionType: 0
+    characterType: 7
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 5
+    text: "\uBCF8\uBD80\uC11D\uC758 \uBC29\uC1A1 \uC2A4\uD53C\uCEE4\uB97C \uD1B5\uD574
+      \uC548\uB0B4 \uBA58\uD2B8\uAC00 \uCC22\uC5B4\uC9C0\uB294 \uC18C\uB9AC\uB85C
+      \uC6B8\uB824 \uD37C\uC9C0\uC790, \uAFB9 \uB20C\uB7EC \uB2F4\uACE0 \uC788\uB358
+      \uB0B4 \uC2EC\uC7A5\uC774 \uB2E4\uC2DC\uAE08 \uCFF5\uCF85\uAC70\uB9AC\uBA70
+      \uD130\uC9C8 \uB4EF\uC774 \uB6F0\uAE30 \uC2DC\uC791\uD588\uB2E4."
+    trigger: 0
+    nextId: 6
+    motionType: 0
+    characterType: 7
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 6
+    text: "\uC190\uBC14\uB2E5\uC5D0 \uCC28\uAC00\uC6B4 \uC2DD\uC740\uB540\uC774 \uCC28\uC62C\uB790\uACE0,
+      \uC6B4\uB3D9\uC7A5\uC758 \uB113\uC740 \uACF5\uAC04\uC774 \uAC11\uC790\uAE30
+      \uB098\uB97C \uC555\uB3C4\uD558\uBA70 \uC5B4\uC9C0\uB7EC\uC6C0\uC774 \uBC00\uB824\uC654\uB2E4."
+    trigger: 0
+    nextId: 7
+    motionType: 0
+    characterType: 7
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 7
+    text: "\uCC2C\uC218\uC57C, \uC0AC\uBC29\uC774 \uC644\uC804\uD788 \uC5F4\uB824
+      \uC788\uB294 \uACF5\uAC04\uC5D0\uC11C \uC218\uB9CE\uC740 \uC0AC\uB78C\uC758
+      \uC18C\uC74C\uC774 \uB108\uB97C \uC5D0\uC6CC\uC2F8\uACE0 \uC788\uC5B4. \uC774
+      \uBCF5\uC7A1\uD55C \uD658\uACBD \uD55C\uAC00\uC6B4\uB370\uC5D0 \uC11C \uC788\uB294
+      \uC9C0\uAE08, \uB124 \uBA38\uB9BF\uC18D\uC744 \uAC00\uC7A5 \uC138\uCC28\uAC8C
+      \uB4A4\uD754\uB4E4\uACE0 \uC788\uB294 \uC0DD\uAC01\uC740 \uBB50\uC57C?"
+    trigger: 0
+    nextId: 8
+    motionType: 0
+    characterType: 6
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 8
+    text: "\uC774\uB7F4 \uB550 \uC6B4\uB3D9\uC7A5 \uC804\uCCB4\uB97C \uBCF4\uB824\uACE0
+      \uD558\uC9C0 \uB9C8. \uB208\uC744 \uC9C8\uB048 \uAC10\uC558\uB2E4\uAC00 \uB531
+      3\uCD08\uB9CC \uB728\uACE0, \uB124 \uBC1C\uB05D\uC774 \uB51B\uACE0 \uC788\uB294
+      \uC6B4\uB3D9\uC7A5\uC758 '\uD759'\uC774\uB098 \uC6B4\uB3D9\uC7A5\uC5D0 \uADF8\uB824\uC9C4
+      '\uD770\uC0C9 \uB77C\uC778' \uD558\uB098\uC5D0\uB9CC \uC2DC\uC120\uC744 \uACE0\uC815\uD574
+      \uBD10."
+    trigger: 0
+    nextId: 9
+    motionType: 0
+    characterType: 6
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 9
+    text: "\uADF8\uB9AC\uACE0 \uC228\uC744 4\uCD08 \uB3D9\uC548 \uCC9C\uCC9C\uD788
+      \uB4E4\uC774\uB9C8\uC2DC\uACE0, 4\uCD08 \uB3D9\uC548 \uB0B4\uC26C\uB294 \uAC70\uC57C.
+      \uC8FC\uBCC0\uC758 \uC18C\uC74C\uC740 \uB2E4 \uBC30\uACBD\uC74C\uC545\uC77C
+      \uBFD0\uC774\uC57C."
+    trigger: 0
+    nextId: 10
+    motionType: 0
+    characterType: 6
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 10
+    text: "\uB124\uAC00 \uB51B\uACE0 \uC788\uB294 \uC774 \uB2E8\uB2E8\uD55C \uB545\uB9CC
+      \uB290\uAEF4\uBD10. \uB10C \uC548\uC804\uD574!"
+    trigger: 0
+    nextId: 11
+    motionType: 0
+    characterType: 6
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 11
+    text: "\uC694\uC815\uC758 \uBAA9\uC18C\uB9AC\uB97C \uAC00\uC774\uB4DC \uC0BC\uC544
+      \uD770\uC0C9 \uC11D\uD68C \uB77C\uC778\uC744 \uB0B4\uB824\uB2E4\uBCF4\uBA70
+      \uAE4A\uC740 \uC228\uC744 \uB0B4\uC26C\uC5C8\uB2E4."
+    trigger: 0
+    nextId: 12
+    motionType: 0
+    characterType: 7
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 12
+    text: "\uD6C4, \uD558."
+    trigger: 0
+    nextId: 13
+    motionType: 0
+    characterType: 1
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 13
+    text: "\uCC28\uAC11\uB358 \uC190\uB05D\uC5D0 \uC544\uC8FC \uC870\uAE08\uC529
+      \uAC10\uAC01\uC774 \uB3CC\uC544\uC624\uB294 \uB290\uB08C\uC774 \uB4E4 \uB54C\uCBE4,
+      \uB204\uAD70\uAC00 \uB0B4 \uC18C\uB9E4\uB97C \uD22D\uD22D \uCCE4\uB2E4."
+    trigger: 0
+    nextId: 14
+    motionType: 0
+    characterType: 7
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 14
+    text: "\uCC2C\uC218\uC57C, \uAC00\uC790! \uB124\uAC00 \uC911\uC2EC\uC744 \uC798
+      \uC7A1\uC544\uC918\uC57C \uD574!"
+    trigger: 0
+    nextId: 15
+    motionType: 1
+    characterType: 2
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 15
+    text: "\uC9DD\uAFCD \uC11C\uC5F0\uC774\uAC00 \uC6B0\uB9AC \uBC18\uC758 \uD478\uB978\uC0C9
+      \uBC18\uD2F0\uB97C \uD718\uB0A0\uB9AC\uBA70 \uB098\uB97C \uBD88\uB800\uB2E4."
+    trigger: 0
+    nextId: 16
+    motionType: 0
+    characterType: 7
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 16
+    text: "\uB098\uB294 \uCE68\uC744 \uD06C\uAC8C \uC0BC\uD0A4\uACE0 \uCC9C\uCC9C\uD788
+      \uC6B4\uB3D9\uC7A5 \uD55C\uBCF5\uD310\uC73C\uB85C \uAC78\uC5B4 \uB098\uAC14\uB2E4.
+      \uB77C\uC778 \uB108\uBA38 \uC2A4\uD0E0\uB4DC\uC5D0 \uC549\uC740 \uC218\uB9CE\uC740
+      \uC804\uAD50\uC0DD\uC758 \uC2DC\uC120\uC774 \uC77C\uC81C\uD788 \uC6B0\uB9AC
+      \uBC18\uC744 \uD5A5\uD574 \uC3DF\uC544\uC9C0\uB294 \uAC8C \uC628\uBAB8\uC73C\uB85C
+      \uB290\uAEF4\uC84C\uB2E4."
+    trigger: 0
+    nextId: 17
+    motionType: 0
+    characterType: 7
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 17
+    text: "\uB2E4\uC2DC \uB2E4\uB9AC\uAC00 \uB35C\uB35C \uB5A8\uB9AC\uACE0 \uC2DC\uC57C\uAC00
+      \uD750\uB824\uC9C0\uB824\uB358 \uC21C\uAC04, \uC800 \uBA40\uB9AC 4\uBC18 \uC2A4\uD0E0\uB4DC
+      \uC751\uC6D0\uC11D\uC774 \uB208\uC5D0 \uB4E4\uC5B4\uC654\uB2E4."
+    trigger: 0
+    nextId: 18
+    motionType: 0
+    characterType: 7
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 18
+    text: "\uADF8\uACF3\uC5D0\uB294 \uBD88\uD0C0\uB294 \uB178\uB780\uC0C9 \uBC18\uD2F0\uB97C
+      \uC785\uC740 \uD558\uC9C4\uC774\uAC00 \uC2A4\uD0E0\uB4DC \uB9E8 \uC55E\uC904\uC5D0
+      \uB9E4\uB2EC\uB824 \uB098\uB97C \uD5A5\uD574 \uC591\uC190 \uC5C4\uC9C0\uC190\uAC00\uB77D\uC744
+      \uB192\uC774 \uB4E4\uC5B4 \uC62C\uB9AC\uACE0 \uC788\uC5C8\uB2E4."
+    trigger: 0
+    nextId: 19
+    motionType: 0
+    characterType: 7
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 19
+    text: "\uADF8\uB9AC\uACE0 \uBAA9\uCCAD\uC774 \uD130\uC838\uB77C \uC785 \uBAA8\uC591\uC73C\uB85C
+      \uC678\uCCE4\uB2E4."
+    trigger: 0
+    nextId: 20
+    motionType: 0
+    characterType: 7
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 20
+    text: "\uC9C0\uCC2C\uC218! \uCAC4\uC9C0 \uB9C8! \uD560 \uC218 \uC788\uC5B4!"
+    trigger: 0
+    nextId: 21
+    motionType: 1
+    characterType: 3
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 21
+    text: "\uC8FC\uBCC0\uC758 \uC18C\uC74C \uC18D\uC5D0\uC11C\uB3C4 \uD558\uC9C4\uC774\uC758
+      \uADF8 \uBB34\uC18C\uC74C \uC678\uCE68\uB9CC\uD07C\uC740 \uB0B4 \uBA38\uB9BF\uC18D\uC5D0
+      \uC815\uD655\uD558\uAC8C \uAF42\uD614\uB2E4."
+    trigger: 0
+    nextId: 22
+    motionType: 0
+    characterType: 7
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 22
+    text: "\uADF8 \uBAA8\uC2B5\uC744 \uBCF4\uB2C8 \uBB18\uD558\uAC8C\uB3C4 \uB2E4\uB9AC\uC758
+      \uB5A8\uB9BC\uC774 \uC2A4\uB974\uB974 \uBA48\uCD94\uC5C8\uB2E4."
+    trigger: 0
+    nextId: 23
+    motionType: 0
+    characterType: 7
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 23
+    text: "\uB0B4 \uC55E\uC5D0\uB294 \uB098\uB97C \uC6D0\uB9DD\uD558\uAC70\uB098
+      \uC2DC\uD5D8\uD558\uB824\uB294 \uB208\uBE5B\uC774 \uC544\uB2CC, \uC628\uC804\uD55C
+      '\uC2E0\uB8B0'\uC758 \uB208\uBE5B\uC73C\uB85C \uBC14\uB77C\uBCF4\uBA70 \uC904
+      \uC548\uC73C\uB85C \uB6F0\uC5B4\uB4E4 \uC900\uBE44\uB97C \uD558\uB294 1\uBC18
+      \uC544\uC774\uB4E4\uC774 \uC11C \uC788\uC5C8\uB2E4."
+    trigger: 0
+    nextId: 24
+    motionType: 0
+    characterType: 7
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 24
+    text: "\uCCB4\uC721\uBD80\uC7A5 \uC11D\uC9C4\uC774\uAC00 \uBC18\uB300\uD3B8 \uC904\uC744
+      \uB2E8\uB2E8\uD788 \uC7A1\uACE0 \uB098\uB97C \uBCF4\uBA70 \uBB35\uC9C1\uD558\uAC8C
+      \uACE0\uAC1C\uB97C \uB044\uB355\uC600\uB2E4."
+    trigger: 0
+    nextId: 25
+    motionType: 0
+    characterType: 7
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 25
+    text: "\uC790! \uC6B0\uB9AC \uC5F0\uC2B5\uD55C \uB300\uB85C\uB9CC \uD558\uC790!
+      \uCC2C\uC218\uAC00 \uB3CC\uB9B0\uB2E4! \uD558\uB098, \uB458, \uC14B, \uCD9C\uBC1C!!"
+    trigger: 0
+    nextId: 26
+    motionType: 0
+    characterType: 0
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 26
+    text: "(\uD718\uC775- \uD718\uC775-)"
+    trigger: 0
+    nextId: 27
+    motionType: 0
+    characterType: 7
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 27
+    text: "\uB098\uB294 \uC774\uB97C \uC545\uBB3C\uACE0 \uB450 \uD314\uC5D0 \uC628
+      \uD798\uC744 \uC2E4\uC5B4 \uAC70\uB300\uD55C \uBC27\uC904\uC744 \uB3CC\uB9AC\uAE30
+      \uC2DC\uC791\uD588\uB2E4."
+    trigger: 0
+    nextId: 28
+    motionType: 0
+    characterType: 7
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 28
+    text: "\uC77C\uC815\uD55C \uBC15\uC790, \uC815\uD655\uD55C \uADA4\uB3C4."
+    trigger: 0
+    nextId: 29
+    motionType: 0
+    characterType: 7
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 29
+    text: "\uB0B4\uAC00 \uB9CC\uB4E4\uC5B4\uB0B8 \uC548\uC804\uD55C \uC6B8\uD0C0\uB9AC
+      \uC548\uC73C\uB85C \uC11C\uC5F0\uC774\uC640 \uC11D\uC9C4\uC774, \uADF8\uB9AC\uACE0
+      1\uBC18 \uC544\uC774\uB4E4\uC774 \uD558\uB098 \uB458 \uD0C0\uC774\uBC0D\uC744
+      \uB9DE\uCDB0 \uB6F0\uC5B4\uB4E4\uC5C8\uB2E4."
+    trigger: 0
+    nextId: 30
+    motionType: 0
+    characterType: 7
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 30
+    text: "\uC544\uC774\uB4E4\uC774 \uC22B\uC790\uB97C \uC678\uCE58\uBA70 \uC77C\uC81C\uD788
+      \uBC1C\uC744 \uAD6C\uB974\uB294 \uC18C\uB9AC\uC640 \uAD6C\uD638 \uC18C\uB9AC\uAC00
+      \uD478\uB978 \uBD04 \uD558\uB298\uC744 \uCC0C\uB97C \uB4EF\uC774 \uC6B8\uB824
+      \uD37C\uC84C\uB2E4."
+    trigger: 0
+    nextId: 31
+    motionType: 0
+    characterType: 7
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 31
+    text: "\uAC70\uB300\uD55C \uBC27\uC904\uC758 \uBB34\uAC8C\uAC00 \uC5B4\uAE68\uC640
+      \uD314\uC744 \uC9D3\uB20C\uB7EC\uC654\uACE0 \uC228\uC740 \uD131 \uBC11\uAE4C\uC9C0
+      \uAC00\uBE74\uC9C0\uB9CC, \uC904\uC744 \uB3CC\uB9AC\uB294 \uC774 \uC21C\uAC04\uB9CC\uD07C\uC740
+      \uADF8 \uB204\uAD6C\uC758 \uC2DC\uC120\uB3C4 \uBB34\uC12D\uC9C0 \uC54A\uC558\uB2E4."
+    trigger: 0
+    nextId: 32
+    motionType: 0
+    characterType: 7
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 32
+    text: "\uC624\uC9C1 \uC544\uC774\uB4E4\uACFC \uB0B4\uAC00 \uD558\uB098\uC758
+      \uBC15\uC790\uB85C \uB048\uB048\uD558\uAC8C \uC5F0\uACB0\uB418\uC5B4 \uC788\uB2E4\uB294
+      \uC0DD\uC0DD\uD55C \uAC10\uAC01\uB9CC\uC774 \uC628\uBAB8\uC744 \uAC10\uC2F8
+      \uC548\uC558\uB2E4."
+    trigger: 0
+    nextId: 33
+    motionType: 0
+    characterType: 7
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 33
+    text: "(\uD22D-!)"
+    trigger: 0
+    nextId: 34
+    motionType: 0
+    characterType: 7
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 34
+    text: "\uC544\uC27D\uAC8C\uB3C4 27\uBC88\uC9F8\uC5D0\uC11C \uC911\uAC04\uC5D0
+      \uC788\uB358 \uD55C \uC544\uC774\uC758 \uBC1C\uC774 \uC904\uC5D0 \uAC78\uB9AC\uBA70
+      \uACBD\uAE30\uAC00 \uC885\uB8CC\uB418\uC5C8\uB2E4."
+    trigger: 0
+    nextId: 35
+    motionType: 0
+    characterType: 7
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 35
+    text: "\uC544\uC27D\uAC8C \uC608\uC120 \uD0C8\uB77D\uC774\uC5C8\uC9C0\uB9CC,
+      \uC228\uC744 \uAC70\uCE60\uAC8C \uD5D0\uB5A1\uC774\uBA70 \uC6B4\uB3D9\uC7A5
+      \uBC14\uB2E5\uC5D0 \uC8FC\uC800\uC549\uC740 \uB098\uC5D0\uAC8C \uC9DD\uAFCD
+      \uC11C\uC5F0\uC774\uC640 \uCCB4\uC721\uBD80\uC7A5 \uC11D\uC9C4\uC774\uAC00
+      \uBC88\uAC1C\uCC98\uB7FC \uB2E4\uAC00\uC640 \uC2DC\uC6D0\uD55C \uD3EC\uCE74\uB9AC\uC2A4\uC6E8\uD2B8\uB97C
+      \uAC74\uB138\uB2E4."
+    trigger: 0
+    nextId: 36
+    motionType: 0
+    characterType: 7
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 36
+    text: "\uC640, \uC9C0\uCC2C\uC218! \uB108 \uC9C4\uC9DC \uB300\uBC15\uC774\uC5C8\uC5B4!
+      \uC904 \uBC15\uC790\uAC00 \uC790\uB85C \uC7B0 \uAC83\uCC98\uB7FC \uC5C4\uCCAD
+      \uC815\uD655\uD558\uB354\uB77C!"
+    trigger: 0
+    nextId: 37
+    motionType: 1
+    characterType: 2
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 37
+    text: "\uC11D\uC9C4\uC774\uB3C4 \uC774\uB9C8\uC758 \uB540\uC744 \uB2E6\uC73C\uBA70
+      \uB0B4 \uB4F1\uC744 \uD321\uD321 \uCE58\uBA70 \uD658\uD558\uAC8C \uC6C3\uC5C8\uB2E4."
+    trigger: 0
+    nextId: 38
+    motionType: 0
+    characterType: 7
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 38
+    text: "\uACE0\uB9D9\uB2E4 \uCC2C\uC218\uC57C. \uCC98\uC74C\uC5D0 \uB0B4\uAC00
+      \uC5B5\uC9C0\uB85C \uCC38\uC5EC\uD558\uB77C\uACE0 \uB2E4\uADF8\uCCD0\uC11C
+      \uBBF8\uC548\uD588\uC5B4."
+    trigger: 0
+    nextId: 39
+    motionType: 1
+    characterType: 0
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 39
+    text: "\uB124\uAC00 \uC904 \uC548 \uB3CC\uB824\uC92C\uC73C\uBA74 \uC6B0\uB9AC
+      \uC2DC\uC791\uB3C4 \uBABB \uD588\uC744 \uAC70\uC57C. \uC624\uB298 \uCD5C\uACE0\uC600\uB2E4!"
+    trigger: 0
+    nextId: 40
+    motionType: 1
+    characterType: 0
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 40
+    text: "\uC21C\uC2DD\uAC04\uC5D0 \uC8FC\uBCC0 \uC544\uC774\uB4E4\uC774 \uB098\uB97C
+      \uB465\uADF8\uB807\uAC8C \uB458\uB7EC\uC2F8\uACE0 \uB300\uB2E8\uD588\uB2E4\uBA70
+      \uD55C\uB9C8\uB514\uC529 \uCE6D\uCC2C\uC744 \uAC74\uB124\uAE30 \uC2DC\uC791\uD588\uB2E4."
+    trigger: 0
+    nextId: 41
+    motionType: 0
+    characterType: 7
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 41
+    text: "\uB298 \uBE44\uB09C\uACFC \uAC70\uC808\uC758 \uC2DC\uC120\uB9CC \uBC1B\uB2E4\uAC00,
+      \uAC11\uC791\uC2A4\uB7FD\uAC8C \uB530\uB73B\uD55C \uC2DC\uC120\uACFC \uACFC\uBD84\uD55C
+      \uCE6D\uCC2C\uC774 \uC0AC\uBC29\uC5D0\uC11C \uC3DF\uC544\uC9C0\uC790 \uB1CC
+      \uC18D\uC5D0 \uACFC\uBD80\uD558\uAC00 \uAC78\uB9B0 \uB4EF \uBA39\uBA39\uD574\uC84C\uB2E4."
+    trigger: 0
+    nextId: 42
+    motionType: 0
+    characterType: 7
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 42
+    text: "(\uC5B4\uB5A1\uD558\uC9C0?)"
+    trigger: 0
+    nextId: 43
+    motionType: 0
+    characterType: 1
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 43
+    text: "(\uB0B4\uAC00 \uBB50\uB77C\uACE0 \uC774\uB807\uAC8C \uCE6D\uCC2C\uC744
+      \uD558\uC9C0?)"
+    trigger: 0
+    nextId: 44
+    motionType: 0
+    characterType: 1
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 44
+    text: "(\uBB50\uB77C\uACE0 \uB300\uB2F5\uD574\uC57C \uC560\uB4E4\uC774 \uC5B4\uC0C9\uD574\uD558\uC9C0
+      \uC54A\uC744\uAE4C?)"
+    trigger: 0
+    nextId: 45
+    motionType: 0
+    characterType: 1
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 45
+    text: "(\uB0B4 \uBC18\uC751\uC774 \uC774\uC0C1\uD558\uBA74 \uBD84\uC704\uAE30\uAC00
+      \uC2F8\uD574\uC9C8 \uD150\uB370...)"
+    trigger: 0
+    nextId: 46
+    motionType: 0
+    characterType: 1
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 46
+    text: "\uAE0D\uC815\uC801\uC778 \uC0C1\uD669\uC784\uC5D0\uB3C4 \uBD88\uAD6C\uD558\uACE0,
+      \uCE6D\uCC2C\uC5D0 \uB300\uCC98\uD558\uB294 \uBC95\uC744 \uBAA8\uB974\uB294
+      \uB0B4 \uB9C8\uC74C\uC740 \uB2E4\uC2DC \uBC29\uC5B4\uAE30\uC81C\uB97C \uBC1C\uB3D9
+      \uC2DC\uCF30\uB2E4."
+    trigger: 0
+    nextId: 47
+    motionType: 0
+    characterType: 7
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 47
+    text: "\uACE0\uAC1C\uB97C \uD479 \uC219\uC778 \uB0B4 \uC190\uB05D\uC774 \uB2E4\uC2DC
+      \uB531\uB531\uD558\uAC8C \uAD73\uC5B4\uC9C0\uAE30 \uC2DC\uC791\uD588\uB2E4."
+    trigger: 0
+    nextId: 48
+    motionType: 0
+    characterType: 7
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 48
+    text: "\uCC2C\uC218\uC57C, \uC0AC\uBC29\uC5D0\uC11C \uC544\uC774\uB4E4\uC758
+      \uD658\uD55C \uBBF8\uC18C\uC640 \uACA9\uB824\uAC00 \uB108\uC5D0\uAC8C \uC3DF\uC544\uC9C0\uACE0
+      \uC788\uC5B4. \uAC11\uC791\uC2A4\uB7FD\uAC8C \uC774 \uBAA8\uB4E0 \uC8FC\uBAA9\uC744
+      \uBC1B\uAC8C \uB41C \uC21C\uAC04, \uB124 \uB9C8\uC74C\uC18D\uC5D0\uC11C \uAC00\uC7A5
+      \uBA3C\uC800 \uD280\uC5B4\uB098\uC628 \uCCAB\uB9C8\uB514\uB294 \uBB58\uAE4C?"
+    trigger: 0
+    nextId: 49
+    motionType: 0
+    characterType: 6
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 49
+    text: "\uC644\uBCBD\uD558\uACE0 \uBA4B\uC9C4 \uB300\uB2F5\uC744 \uD558\uB824\uACE0
+      \uBA38\uB9AC \uAD74\uB9AC\uC9C0 \uC54A\uC544\uB3C4 \uB3FC."
+    trigger: 0
+    nextId: 50
+    motionType: 0
+    characterType: 6
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 50
+    text: "\uC774\uB7F4 \uB550 \uADF8\uC800 \uC544\uC774\uB4E4\uC758 \uD638\uC758\uB97C
+      \uC788\uB294 \uADF8\uB300\uB85C \uBC1B\uC73C\uBA74 \uB3FC."
+    trigger: 0
+    nextId: 51
+    motionType: 0
+    characterType: 6
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 51
+    text: "\uD654\uB824\uD55C \uB9D0 \uB300\uC2E0, \uADF8\uB0E5 \uC544\uC8FC \uC870\uAE08\uB9CC
+      \uC6A9\uAE30 \uB0B4\uC11C \uACE0\uAC1C\uB97C \uB4E4\uACE0 \uC544\uC774\uB4E4\uACFC
+      \uB208\uC744 \uB9DE\uCD98 \uB2E4\uC74C '\uACE0\uB9C8\uC6CC'\uB77C\uACE0 \uB124
+      \uC9C4\uC2EC\uC744 \uD22D \uB358\uC9C0\uBA74 \uB05D\uC774\uC57C."
+    trigger: 0
+    nextId: 52
+    motionType: 0
+    characterType: 6
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 52
+    text: "\uB124\uAC00 \uADF8 \uAE30\uD68C\uB97C \uB9CC\uB4E4\uC5B4\uC900 \uC544\uC774\uB4E4\uC5D0\uAC8C
+      \uACE0\uB9C8\uC6CC\uD558\uB294 \uB9C8\uC74C, \uADF8\uAC70 \uD558\uB098\uBA74
+      \uCDA9\uBD84\uD574!"
+    trigger: 0
+    nextId: 53
+    motionType: 0
+    characterType: 6
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 53
+    text: "\uD0C0\uC778\uC758 \uC2DC\uC120\uACFC \uCE6D\uCC2C\uC774 \uC5EC\uC804\uD788
+      \uC870\uAE08\uC740 \uC5B4\uC0C9\uD558\uACE0 \uBD80\uB044\uB7EC\uC6CC\uC11C
+      \uB098\uB294 \uC5BC\uAD74\uC774 \uD64D\uB2F9\uBB34\uCC98\uB7FC \uBE68\uAC1C\uC9C4
+      \uCC44 \uACE0\uAC1C\uB97C \uAE4A\uAC8C \uC219\uC600\uB2E4."
+    trigger: 0
+    nextId: 54
+    motionType: 0
+    characterType: 7
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 54
+    text: "\uD558\uC9C0\uB9CC \uC774\uBC88\uC5D0\uB294 \uC608\uC804\uCC98\uB7FC \uACE0\uAC1C\uB97C
+      \uC800\uC73C\uBA70 \uBD80\uC815\uD558\uAC70\uB098, \uADF8\uB300\uB85C \uBCF4\uAC74\uC2E4\uB85C
+      \uB3C4\uB9DD\uCCD0 \uC228\uC5B4\uBC84\uB9AC\uC9C0 \uC54A\uC558\uB2E4."
+    trigger: 0
+    nextId: 55
+    motionType: 0
+    characterType: 7
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 55
+    text: "\uC694\uC815\uC758 \uB9D0\uB300\uB85C \uC544\uC774\uB4E4\uC758 \uD638\uC758\uB97C
+      \uB3C4\uB9DD\uCE58\uC9C0 \uC54A\uACE0 \uBC1B\uC544\uB4E4\uC774\uAE30\uB85C
+      \uD588\uB2E4. \uB098\uB294 \uCFF5\uCF85\uAC70\uB9AC\uB294 \uC2EC\uC7A5\uC744
+      \uC9C4\uC815\uC2DC\uD0A4\uBA70 \uC11C\uC11C\uD788 \uACE0\uAC1C\uB97C \uB4E4\uC5C8\uB2E4.
+      \uADF8\uB9AC\uACE0 \uAE30\uC5B4\uB4E4\uC5B4 \uAC00\uB294 \uBAA9\uC18C\uB9AC\uC600\uC9C0\uB9CC,
+      \uB098\uC5D0\uAC8C \uB2E4\uAC00\uC640 \uC900 \uC544\uC774\uB4E4\uC758 \uB208\uC744
+      \uD558\uB098\uC529 \uB9C8\uC8FC\uCE58\uBA70 \uC194\uC9C1\uD55C \uB0B4 \uB9C8\uC74C\uC744
+      \uC870\uC2EC\uC2A4\uB7FD\uAC8C \uBC49\uC5B4\uB0C8\uB2E4."
+    trigger: 0
+    nextId: 56
+    motionType: 0
+    characterType: 7
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 56
+    text: "...\uC544\uB2C8\uC57C. \uB098... \uB0AF\uAC00\uB9AC\uB294 \uB098\uD55C\uD14C...
+      \uAE30\uD68C \uC918\uC11C... \uADF8\uB9AC\uACE0 \uAC19\uC774 \uC5F4\uC2EC\uD788
+      \uB6F0\uC5B4\uC918\uC11C... \uB0B4\uAC00 \uB354 \uACE0\uB9C8\uC6CC."
+    trigger: 0
+    nextId: 57
+    motionType: 0
+    characterType: 1
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 57
+    text: "\uB0B4 \uC11C\uD234\uACE0 \uC9C4\uC2EC \uC5B4\uB9B0 \uB300\uB2F5\uC5D0,
+      \uC21C\uAC04 \uC815\uC801\uC774\uC5C8\uB358 \uC544\uC774\uB4E4\uC758 \uC5BC\uAD74\uC5D0
+      \uD55C\uCE35 \uB354 \uB530\uB73B\uD558\uACE0 \uBD80\uB4DC\uB7EC\uC6B4 \uBBF8\uC18C\uAC00
+      \uBC88\uC84C\uB2E4."
+    trigger: 0
+    nextId: 58
+    motionType: 0
+    characterType: 7
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 58
+    text: "\uC5D0\uC774, \uCC2C\uC218\uAC00 \uBD80\uB044\uB7EC\uC6C0\uC774 \uB9CE\uC544\uC11C
+      \uADF8\uB807\uC9C0 \uC18D\uC740 \uC9C4\uC9DC \uAE4A\uB2E4\uB2C8\uAE4C!"
+    trigger: 0
+    nextId: 59
+    motionType: 0
+    characterType: 2
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 59
+    text: "\uC11C\uC5F0\uC774\uAC00 \uD658\uD558\uAC8C \uC6C3\uC73C\uBA70 \uB0B4
+      \uBC18\uD2F0 \uC18C\uB9E4\uB97C \uC7A5\uB09C\uC2A4\uB808 \uB04C\uC5B4\uB2F9\uACBC\uACE0,
+      \uC11D\uC9C4\uC774\uC640 \uB2E4\uB978 \uB0A8\uD559\uC0DD\uB4E4\uB3C4 \uB0B4
+      \uC5B4\uAE68\uB97C \uD22D\uD22D \uAC10\uC2F8 \uC548\uC558\uB2E4."
+    trigger: 0
+    nextId: 60
+    motionType: 0
+    characterType: 7
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 60
+    text: "\uCC28\uAC00\uC6B4 \uB178\uC774\uC988\uB85C\uB9CC \uAC00\uB4DD\uD588\uB358
+      \uAD50\uC2E4\uC758 \uC8FC\uD30C\uC218\uAC00, \uCC98\uC74C\uC73C\uB85C \uB530\uB73B\uD55C
+      \uD654\uC74C\uC774 \uB418\uC5B4 \uB098\uB97C \uAC10\uC2F8\uB294 \uB4EF\uD55C
+      \uAE30\uC774\uD558\uACE0\uB3C4 \uBC85\uCC2C \uAC10\uAC01\uC774\uC5C8\uB2E4."
+    trigger: 0
+    nextId: 61
+    motionType: 0
+    characterType: 7
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 61
+    text: "\uC6B4\uB3D9\uC7A5 \uC800\uD3B8\uC5D0\uC11C \uADF8 \uBAA8\uC2B5\uC744
+      \uD750\uBB47\uD558\uAC8C \uC9C0\uCF1C\uBCF4\uB358 \uD558\uC9C4\uC774\uAC00,
+      \uC5B4\uB290\uC0C8 \uC74C\uB8CC\uC218 \uCE94\uC744 \uC591\uC190\uC5D0 \uB4E4\uACE0
+      \uB2E4\uAC00\uC640 \uB0B4 \uBAA9\uC5D0 \uB540\uC218\uAC74\uC744 \uCC99 \uAC78\uCCD0\uC8FC\uBA70
+      \uD2B9\uC720\uC758 \uB2A5\uAE00\uB9DE\uC740 \uBBF8\uC18C\uB97C \uC9C0\uC5C8\uB2E4."
+    trigger: 0
+    nextId: 62
+    motionType: 0
+    characterType: 7
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 62
+    text: "\uC57C, \uC9C0\uCC2C\uC218. \uB108 \uC624\uB298 \uC904 \uB3CC\uB9AC\uB294
+      \uAC70 \uC194\uC9C1\uD788 \uC804\uAD50\uC5D0\uC11C \uC81C\uC77C \uBA4B\uC788\uC5C8\uB2E4?"
+    trigger: 0
+    nextId: 63
+    motionType: 1
+    characterType: 3
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 63
+    text: "\uAC8C\uB2E4\uAC00 \uB3C4\uB9DD\uB3C4 \uC548 \uCE58\uACE0 \uC560\uB4E4
+      \uB208 \uBCF4\uBA74\uC11C \uACE0\uB9D9\uB2E4\uACE0 \uB9D0\uAE4C\uC9C0 \uD558\uB0D0?
+      \uB098 \uC9C4\uC9DC \uB208\uBB3C \uB0A0 \uBED4\uD568."
+    trigger: 0
+    nextId: 64
+    motionType: 1
+    characterType: 3
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 64
+    text: "...\uC2DC\uB044\uB7EC, \uC778\uB9C8. \uD314 \uC544\uD504\uB2C8\uAE4C \uB9D0
+      \uC2DC\uD0A4\uC9C0 \uB9C8."
+    trigger: 0
+    nextId: 65
+    motionType: 0
+    characterType: 1
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 65
+    text: "\uD558\uD558\uD558! \uCE24\uB370\uB808 \uB140\uC11D. \uC218\uACE0\uD588\uB2E4!"
+    trigger: 0
+    nextId: 66
+    motionType: 1
+    characterType: 3
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 66
+    text: "\uD558\uC9C4\uC774\uAC00 \uB0B4 \uBA38\uB9AC\uB97C \uC0AC\uC815\uC5C6\uC774
+      \uD5DD\uD074\uC5B4\uD2B8\uB838\uB2E4."
+    trigger: 0
+    nextId: 67
+    motionType: 0
+    characterType: 7
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 67
+    text: "\uC6B4\uB3D9\uC7A5 \uD55C\uD3B8\uC5D0 \uC11C\uC11C \uC544\uC774\uB4E4\uC758
+      \uC6C3\uC74C\uC18C\uB9AC\uB97C \uB4E4\uC73C\uBA70, \uB098\uB294 \uC0DD\uAC01\uD588\uB2E4.
+      \uC544\uC9C1\uB3C4 \uB0B4\uC77C\uC758 \uD559\uAD50\uB294 \uB450\uB835\uACE0,
+      \uB0AF\uC120 \uC0AC\uB78C \uC55E\uC5D0 \uC11C\uBA74 \uBAA9\uC18C\uB9AC\uAC00
+      \uB5A8\uB9AC\uB294 \uC99D\uC0C1\uC740 \uC5EC\uC804\uD560 \uAC83\uC774\uB2E4."
+    trigger: 0
+    nextId: 68
+    motionType: 0
+    characterType: 7
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 68
+    text: "\uD558\uC9C0\uB9CC, \uC801\uC5B4\uB3C4 \uB0B4 \uB9C8\uC74C\uC744 \uC194\uC9C1\uD558\uAC8C
+      \uC804\uB2EC\uD558\uACE0 \uD0C0\uD611\uD558\uB294 \uBC95\uC744, \uADF8\uB9AC\uACE0
+      \uD0C0\uC778\uC758 \uB530\uB73B\uD55C \uC2DC\uC120\uC744 \uC628\uC804\uD788
+      \uBC1B\uC544\uB4E4\uC774\uB294 \uBC95\uC744 \uC544\uC8FC \uC870\uAE08\uC740
+      \uBC30\uC6B4 \uAC83 \uAC19\uB2E4\uACE0."
+    trigger: 0
+    nextId: 69
+    motionType: 0
+    characterType: 7
+    backgroundType: 5
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 69
+    text: "\uCCB4\uC721\uB300\uD68C\uC758 \uB728\uAC70\uC6E0\uB358 \uC5F4\uAE30\uAC00
+      \uAC00\uB77C\uC549\uACE0, \uC6B4\uB3D9\uC7A5 \uC704\uB85C \uAE38\uAC8C \uB298\uC5B4\uC9C4
+      \uB9CC\uAD6D\uAE30\uC758 \uADF8\uB9BC\uC790\uAC00 \uC11C\uC11C\uD788 \uBC88\uC838\uAC00\uAE30
+      \uC2DC\uC791\uD588\uB2E4."
+    trigger: 0
+    nextId: 70
+    motionType: 0
+    characterType: 7
+    backgroundType: 1
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 70
+    text: "\uC544\uC774\uB4E4\uC740 \uC800\uB9C8\uB2E4 \uB540\uC5D0 \uC816\uC740
+      \uBC18\uD2F0\uB97C \uAC08\uC544\uC785\uAC70\uB098 \uAC00\uBC29\uC744 \uCC59\uAE30\uBA70
+      \uAD50\uC2E4\uB85C \uD5A5\uD588\uB2E4."
+    trigger: 0
+    nextId: 71
+    motionType: 0
+    characterType: 7
+    backgroundType: 1
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 71
+    text: "\uD3D0\uD68C\uC2DD \uC120\uC5B8\uACFC \uD568\uAED8 \uAE38\uC5C8\uB358
+      \uBD04 \uCCB4\uC721\uB300\uD68C\uAC00 \uBAA8\uB450 \uB9C9\uC744 \uB0B4\uB838\uB2E4."
+    trigger: 0
+    nextId: 72
+    motionType: 0
+    characterType: 7
+    backgroundType: 7
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 72
+    text: "\uB540\uC5D0 \uC816\uC740 \uBC18\uD2F0\uB97C \uAC08\uC544\uC785\uACE0
+      \uAC00\uBC29\uC744 \uBA54\uACE0 \uAD50\uBB38\uC744 \uB098\uC11C\uB294\uB370,
+      \uC8FC\uBA38\uB2C8 \uC18D \uC2A4\uB9C8\uD2B8\uD3F0\uC774 \uC9E7\uC740 \uC9C4\uB3D9\uC744
+      \uC6B8\uB838\uB2E4."
+    trigger: 0
+    nextId: 73
+    motionType: 0
+    characterType: 7
+    backgroundType: 7
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 
+  - id: 73
+    text: "\uD654\uBA74\uC5D0 \uB72C \uC774\uB984\uC740 \uB098\uB97C \uB610 \uB2E4\uB978
+      \uC0C8\uB85C\uC6B4 \uACF3\uC73C\uB85C \uC774\uB04C\uACE0 \uC788\uC5C8\uB2E4."
+    trigger: 2
+    nextId: 
+    motionType: 0
+    characterType: 7
+    backgroundType: 7
+    c1Label: 
+    c1NextId: 
+    c2Label: 
+    c2NextId: 
+    c3Label: 
+    c3NextId: 

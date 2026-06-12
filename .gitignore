@@ -26,6 +26,11 @@
 # Recordings can get excessive in size
 /[Rr]ecordings/
 
+# Local LLM (LLMUnity auto-extracts native libs here; model downloaded via editor menu)
+/[Aa]ssets/StreamingAssets/*.gguf
+/[Aa]ssets/StreamingAssets/*.download
+/[Aa]ssets/StreamingAssets/LlamaLib-*/
+
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # /[Aa]ssets/AssetStoreTools*
 

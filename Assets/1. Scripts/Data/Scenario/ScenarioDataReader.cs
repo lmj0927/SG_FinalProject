@@ -8,14 +8,15 @@ public class ScenarioDataReader : DataReaderBase
 {
     private const string ExportFolder = "Assets/5. Data/Scenario";
 
-    /// <summary>시트 1행 헤더 열 (A~K). 에디터 API 읽기 범위와 동일하게 유지.</summary>
+    /// <summary>시트 1행 헤더 열 (A~N). 에디터 API 읽기 범위와 동일하게 유지.</summary>
     public static readonly string[] SheetColumnHeaders =
     {
-        "Id", "Text", "Trigger", "Next", "Emotion",
-        "C1Label", "C1Next", "C2Label", "C2Next", "C3Label", "C3Next"
+        "Id", "Text", "Trigger", "Next", "Emotion", "Character", "Map",
+        "C1Label", "C1Next", "C2Label", "C2Next", "C3Label", "C3Next",
+        "Situation"
     };
 
-    public const string SpreadsheetDataRangeEnd = "K100";
+    public const string SpreadsheetDataRangeEnd = "N200";
 
     [Header("Imported Data")]
     [SerializeField] private List<ScenarioData> dataList = new List<ScenarioData>();
@@ -36,7 +37,6 @@ public class ScenarioDataReader : DataReaderBase
     {
         asset.scenarioId = AssociatedWorksheet;
         asset.nodes = new List<ScenarioData>(dataList);
-        // characterId는 Scenario SO에서 직접 설정 (시트/Reader에서 덮어쓰지 않음)
     }
 
     public ScenarioAsset CreateScenarioAsset()
@@ -96,6 +96,9 @@ public class ScenarioDataReader : DataReaderBase
             trigger = ParseTrigger(GetColumnValue(cells, "Trigger")),
             nextId = GetColumnValue(cells, "Next"),
             motionType = ParseEmotionType(GetColumnValue(cells, "Emotion")),
+            characterType = ParseCharacterType(GetColumnValue(cells, "Character")),
+            backgroundType = ParseBackgroundType(GetColumnValue(cells, "Map")),
+            situation = GetColumnValue(cells, "Situation"),
             c1Label = GetColumnValue(cells, "C1Label"),
             c1NextId = GetColumnValue(cells, "C1Next"),
             c2Label = GetColumnValue(cells, "C2Label"),
@@ -188,6 +191,38 @@ public class ScenarioDataReader : DataReaderBase
 
         Debug.LogWarning($"[ScenarioDataReader] 알 수 없는 Emotion: {raw} → Default 처리");
         return EmotionType.Default;
+    }
+
+    private static CharacterType ParseCharacterType(string raw)
+    {
+        if (string.IsNullOrWhiteSpace(raw))
+        {
+            return CharacterType.None;
+        }
+
+        if (Enum.TryParse(raw.Trim(), true, out CharacterType characterType))
+        {
+            return characterType;
+        }
+
+        Debug.LogWarning($"[ScenarioDataReader] 알 수 없는 Character: {raw} → None 처리");
+        return CharacterType.None;
+    }
+
+    private static BackgroundType ParseBackgroundType(string raw)
+    {
+        if (string.IsNullOrWhiteSpace(raw))
+        {
+            return BackgroundType.None;
+        }
+
+        if (Enum.TryParse(raw.Trim(), true, out BackgroundType backgroundType))
+        {
+            return backgroundType;
+        }
+
+        Debug.LogWarning($"[ScenarioDataReader] 알 수 없는 Map: {raw} → None 처리");
+        return BackgroundType.None;
     }
 
 #if UNITY_EDITOR

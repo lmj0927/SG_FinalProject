@@ -25,8 +25,17 @@ public class ScenarioDataReaderEditor : Editor
         EditorGUILayout.HelpBox(
             "1행 헤더 (대소문자 무시):\n" +
             string.Join(", ", ScenarioDataReader.SheetColumnHeaders) +
-            "\n\nEmotion: Default, Happy, Sad, Angry, Surprised\n" +
-            "characterId는 Scenario SO에서 직접 입력 (시트에서 읽지 않음)",
+            "\n\nTrigger: None, Choice3, End, Enter\n" +
+            "Enter: 입력 후 Next로 이동.\n" +
+            "  {input} = LLM 되비춤 대사 전체\n" +
+            "  {cbt} = LLM CBT 대안 사고·행동 제안 대사 전체\n" +
+            "  예) fear_echo:{input} → fear_cbt:{cbt}\n" +
+            "Character: None, Player, SY, HJ, SJ, Teacher, Fairy, Story\n" +
+            "Character None/Story는 이름·초상 미표시, Player는 이름만 표시\n" +
+            "Map: None, Classroom, Cafeteria, Hallway, TeacherRoom, Playground, SchoolGate\n" +
+            "Situation: LLM용 장면 설명 2~3문장 (Enter 노드). 예) 국어 시간. / 친구들 앞에서 3분 발표. / 발표 직전. 비우면 Map 기본 장면 사용\n" +
+            "Emotion: Default, Happy, Sad, Angry, Surprised\n" +
+            "Character None/Player는 초상 미표시, Map None은 배경 유지",
             MessageType.Info);
 
         EditorGUILayout.Space(8);
@@ -85,7 +94,7 @@ public class ScenarioDataReaderEditor : Editor
 
             EditorGUILayout.LabelField(
                 row.id,
-                $"{row.motionType} | {row.trigger} → {row.nextId}",
+                $"{row.backgroundType} | {row.characterType}/{row.motionType} | {row.trigger} → {row.nextId}",
                 EditorStyles.miniLabel);
         }
 
